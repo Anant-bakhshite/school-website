@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        .news, .contact {
+            margin-top: 20px;
+        }
+        .news h2, .contact h2 {
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our School</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content" id="home">
+        <section class="welcome">
+            <h2>Welcome to Our School</h2>
+            <p>Our school is dedicated to providing the best education to our students. We believe in fostering a nurturing and supportive environment where every student can thrive.</p>
+        </section>
+
+        <section class="news" id="news">
+            <h2>Latest News</h2>
+            <article>
+                <h3>School Science Fair</h3>
+                <p>Join us for the annual school science fair on July 20th. Students will showcase their projects and experiments.</p>
+            </article>
+            <article>
+                <h3>Summer Break</h3>
+                <p>Summer break starts on August 1st. Enjoy your vacation and stay safe!</p>
+            </article>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@ourschool.edu</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 School St, Education City, Country</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Our School. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
